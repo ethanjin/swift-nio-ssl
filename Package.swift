@@ -35,7 +35,7 @@ let package = Package(
 MANGLE_END */
     ],
     dependencies: [
-        .package(url: "https://github.com/ethanjin/swift-nio.git", .branchItem("ethanjin")),
+        .package(path: "../swift-nio")
     ],
     targets: [
         .target(name: "CNIOBoringSSL"),
